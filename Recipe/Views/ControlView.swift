@@ -20,6 +20,7 @@ struct ControlView: View {
         ToggleButton(selected: $comicSelected, label: "Comic")
         ToggleButton(selected: $monoSelected, label: "Mono")
         ToggleButton(selected: $crystalSelected, label: "Crystal")
+          
       }
     }
   }
