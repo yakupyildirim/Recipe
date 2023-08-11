@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA4690B62A71AB3400F55C3E /* RecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690B52A71AB3400F55C3E /* RecipeApp.swift */; };
+		CA4690B62A71AB3400F55C3E /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690B52A71AB3400F55C3E /* AppMain.swift */; };
 		CA4690B82A71AB3400F55C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690B72A71AB3400F55C3E /* ContentView.swift */; };
 		CA4690BA2A71AB3600F55C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4690B92A71AB3600F55C3E /* Assets.xcassets */; };
 		CA4690BD2A71AB3600F55C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4690BC2A71AB3600F55C3E /* Preview Assets.xcassets */; };
+		CA4690C82A71AE1D00F55C3E /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690C72A71AE1D00F55C3E /* CameraError.swift */; };
+		CA4690CA2A71AE6900F55C3E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690C92A71AE6900F55C3E /* CameraManager.swift */; };
+		CA4690CC2A71AE8600F55C3E /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690CB2A71AE8600F55C3E /* FrameManager.swift */; };
+		CA4690CE2A71AEA300F55C3E /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690CD2A71AEA300F55C3E /* CGImageExtension.swift */; };
+		CA4690D02A71AF8000F55C3E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690CF2A71AF8000F55C3E /* ContentViewModel.swift */; };
+		CA4690D22A71AFFF00F55C3E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690D12A71AFFF00F55C3E /* FrameView.swift */; };
+		CA4690D42A71B02100F55C3E /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690D32A71B02100F55C3E /* ControlView.swift */; };
+		CA4690D62A71B04400F55C3E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690D52A71B04400F55C3E /* ErrorView.swift */; };
+		CA4690D82A71B06E00F55C3E /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4690D72A71B06E00F55C3E /* ToggleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA4690B22A71AB3400F55C3E /* Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA4690B52A71AB3400F55C3E /* RecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeApp.swift; sourceTree = "<group>"; };
+		CA4690B52A71AB3400F55C3E /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		CA4690B72A71AB3400F55C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA4690B92A71AB3600F55C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4690BC2A71AB3600F55C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA4690C72A71AE1D00F55C3E /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		CA4690C92A71AE6900F55C3E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		CA4690CB2A71AE8600F55C3E /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		CA4690CD2A71AEA300F55C3E /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		CA4690CF2A71AF8000F55C3E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CA4690D12A71AFFF00F55C3E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		CA4690D32A71B02100F55C3E /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		CA4690D52A71B04400F55C3E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		CA4690D72A71B06E00F55C3E /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,11 @@
 		CA4690B42A71AB3400F55C3E /* Recipe */ = {
 			isa = PBXGroup;
 			children = (
-				CA4690B52A71AB3400F55C3E /* RecipeApp.swift */,
-				CA4690B72A71AB3400F55C3E /* ContentView.swift */,
+				CA4690C62A71ABDC00F55C3E /* ViewModels */,
+				CA4690C52A71ABC600F55C3E /* Views */,
+				CA4690C42A71ABBA00F55C3E /* Extensions */,
+				CA4690C32A71ABAD00F55C3E /* Camera */,
+				CA4690B52A71AB3400F55C3E /* AppMain.swift */,
 				CA4690B92A71AB3600F55C3E /* Assets.xcassets */,
 				CA4690BB2A71AB3600F55C3E /* Preview Content */,
 			);
@@ -65,6 +86,44 @@
 				CA4690BC2A71AB3600F55C3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA4690C32A71ABAD00F55C3E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				CA4690C72A71AE1D00F55C3E /* CameraError.swift */,
+				CA4690C92A71AE6900F55C3E /* CameraManager.swift */,
+				CA4690CB2A71AE8600F55C3E /* FrameManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		CA4690C42A71ABBA00F55C3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA4690CD2A71AEA300F55C3E /* CGImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA4690C52A71ABC600F55C3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA4690B72A71AB3400F55C3E /* ContentView.swift */,
+				CA4690D12A71AFFF00F55C3E /* FrameView.swift */,
+				CA4690D32A71B02100F55C3E /* ControlView.swift */,
+				CA4690D52A71B04400F55C3E /* ErrorView.swift */,
+				CA4690D72A71B06E00F55C3E /* ToggleButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA4690C62A71ABDC00F55C3E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CA4690CF2A71AF8000F55C3E /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4690D22A71AFFF00F55C3E /* FrameView.swift in Sources */,
+				CA4690CC2A71AE8600F55C3E /* FrameManager.swift in Sources */,
+				CA4690CE2A71AEA300F55C3E /* CGImageExtension.swift in Sources */,
 				CA4690B82A71AB3400F55C3E /* ContentView.swift in Sources */,
-				CA4690B62A71AB3400F55C3E /* RecipeApp.swift in Sources */,
+				CA4690D02A71AF8000F55C3E /* ContentViewModel.swift in Sources */,
+				CA4690D62A71B04400F55C3E /* ErrorView.swift in Sources */,
+				CA4690B62A71AB3400F55C3E /* AppMain.swift in Sources */,
+				CA4690CA2A71AE6900F55C3E /* CameraManager.swift in Sources */,
+				CA4690D82A71B06E00F55C3E /* ToggleButton.swift in Sources */,
+				CA4690D42A71B02100F55C3E /* ControlView.swift in Sources */,
+				CA4690C82A71AE1D00F55C3E /* CameraError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +337,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +368,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
